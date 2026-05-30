@@ -116,8 +116,8 @@
     <string name="record_rule_initial_state_title">Ausgangszustand</string>
     <string name="record_rule_initial_state_recording_item">Aufnahme</string>
     <string name="record_rule_initial_state_paused_item">Pausiert</string>
-    <string name="record_rule_initial_state_recording_desc">Die Aufnahme beginnt sofort und der gesamte Anruf wird aufgenommen, sofern nicht die Option \"Pausieren\" in der Benachrichtigung manuell ausgewählt wird.</string>
-    <string name="record_rule_initial_state_paused_desc">Audio wird nicht aufgenommen, bis die Option \"Fortsetzen\" in der Benachrichtigung manuell ausgewählt wird.</string>
+    <string name="record_rule_initial_state_recording_desc">Die Aufnahme beginnt sofort, wenn der Anruf verbunden wird.</string>
+    <string name="record_rule_initial_state_paused_desc">Die Aufnahme wird pausiert, wenn der Anruf verbunden wird. Es wird kein Audio aufgenommen, bis die Aufnahme über die Benachrichtigung fortgesetzt wird.</string>
     <string name="record_rule_initial_state_recording_summary">Ausgangszustand: Sofort aufnehmen</string>
     <string name="record_rule_initial_state_paused_summary">Ausgangszustand: Pausiert, bis manuell fortgesetzt</string>
 
