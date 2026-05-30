@@ -11,4 +11,8 @@ sealed interface SettingsAlert {
     data class LogcatSucceeded(val uri: Uri) : SettingsAlert
 
     data class LogcatFailed(val uri: Uri, val error: String) : SettingsAlert
+
+    data object BrowserNotFound : SettingsAlert
+
+    data object DocumentsUINotFound : SettingsAlert
 }

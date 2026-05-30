@@ -9,6 +9,22 @@
 
 ### Unreleased
 
+* Minor code style fixes ([PR #882 @chenxiaolong])
+* Clarify title and description of telecom-integrated calls option ([Issue #881], [PR #883 @chenxiaolong])
+
+### Version 3.1
+
+* Fix contact name and contact group name not showing up when viewing existing record rule ([PR #880 @chenxiaolong])
+
+### Version 3.0
+
+* Port UI to Jetpack Compose and adopt Material 3 Expressive styling ([PR #878 @chenxiaolong])
+* Update Traditional Chinese (zh-TW) translations ([PR #869 @anenasa])
+* Update German translations ([Issue #791], [Issue #871], [PR #870 @ElsAr4e], [PR #873 @ElsAr4e])
+* Clarify description strings for the record rule initial state setting ([Issue #871], [PR #872 @chenxiaolong])
+* Update Simplified Chinese (zh-CN) translations ([PR #874 @lofx-lee])
+* Update dependencies ([PR #879 @chenxiaolong])
+
 ### Version 2.11
 
 * Update French translations ([PR #857 @NSO73])
@@ -921,6 +937,8 @@ Non-user-facing changes:
 [Issue #833]: https://github.com/chenxiaolong/BCR/issues/833
 [Issue #853]: https://github.com/chenxiaolong/BCR/issues/853
 [Issue #858]: https://github.com/chenxiaolong/BCR/issues/858
+[Issue #871]: https://github.com/chenxiaolong/BCR/issues/871
+[Issue #881]: https://github.com/chenxiaolong/BCR/issues/881
 [PR #2 @chenxiaolong]: https://github.com/chenxiaolong/BCR/pull/2
 [PR #4 @EleoXDA]: https://github.com/chenxiaolong/BCR/pull/4
 [PR #7 @marat2509]: https://github.com/chenxiaolong/BCR/pull/7
@@ -1282,3 +1300,13 @@ Non-user-facing changes:
 [PR #865 @chenxiaolong]: https://github.com/chenxiaolong/BCR/pull/865
 [PR #866 @chenxiaolong]: https://github.com/chenxiaolong/BCR/pull/866
 [PR #867 @ElsAr4e]: https://github.com/chenxiaolong/BCR/pull/867
+[PR #869 @anenasa]: https://github.com/chenxiaolong/BCR/pull/869
+[PR #870 @ElsAr4e]: https://github.com/chenxiaolong/BCR/pull/870
+[PR #872 @chenxiaolong]: https://github.com/chenxiaolong/BCR/pull/872
+[PR #873 @ElsAr4e]: https://github.com/chenxiaolong/BCR/pull/873
+[PR #874 @lofx-lee]: https://github.com/chenxiaolong/BCR/pull/874
+[PR #878 @chenxiaolong]: https://github.com/chenxiaolong/BCR/pull/878
+[PR #879 @chenxiaolong]: https://github.com/chenxiaolong/BCR/pull/879
+[PR #880 @chenxiaolong]: https://github.com/chenxiaolong/BCR/pull/880
+[PR #882 @chenxiaolong]: https://github.com/chenxiaolong/BCR/pull/882
+[PR #883 @chenxiaolong]: https://github.com/chenxiaolong/BCR/pull/883

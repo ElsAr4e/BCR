@@ -33,8 +33,8 @@
     <string name="pref_write_metadata_name">Metadaten-Datei erstellen</string>
     <string name="pref_write_metadata_desc">JSON-Datei mit Details zum Anruf neben der Audioaufnahme erstellen.</string>
 
-    <string name="pref_record_telecom_apps_name">Telekom-integrierte Apps aufzeichnen</string>
-    <string name="pref_record_telecom_apps_desc">Anrufe von Drittanbieter-Apps aufnehmen, die in Androids Telekom-System integriert sind. Diese Aufnahmen enthalten wahrscheinlich nur Stille.</string>
+    <string name="pref_record_telecom_apps_name"><string name="pref_record_telecom_apps_name">Apps aufzeichnen, die in das Telekommunikationssystem integriert sind</string></string>
+    <string name="pref_record_telecom_apps_desc">Anrufe von Drittanbieter-Apps aufnehmen, die in das Telekommunikationssystem von Android integriert sind. Diese Aufnahmen enthalten wahrscheinlich nur Stille.</string>
 
     <string name="pref_record_dialing_state_name">Anrufe vor Verbindung aufnehmen</string>
     <string name="pref_record_dialing_state_desc">Aufnahme bei ausgehenden Anrufen starten, sobald mit dem Wählen begonnen wird, anstatt zu warten, bis der Anruf verbunden ist.</string>
@@ -72,6 +72,11 @@
     <string name="record_rules_list_action_move_up">Regel nach oben verschieben</string>
     <string name="record_rules_list_action_move_down">Regel nach unten verschieben</string>
     <string name="record_rules_list_action_remove">Regel entfernen</string>
+
+        <!-- Title of the preference category for the conditions that a record rule must match. -->
+    <string name="pref_header_rule_conditions">Regelbedingungen</string>
+    <!-- Title of the preference category for the actions to take when a record rule matches. -->
+    <string name="pref_header_rule_actions">Regelaktionen</string>
 
     <string name="record_rule_number_title">Rufnummer</string>
     <string name="record_rule_number_any_item">Beliebig</string>
@@ -137,7 +142,7 @@
 
     <!-- Filename template dialog -->
     <string name="filename_template_dialog_title">Dateinamenvorlage</string>
-    <string name="filename_template_dialog_message">Benutzerdefinierte Vorlage für den Ausgabedateinamen eingeben. Variablen werden in geschweiften Klammern angegeben (z. B. <annotation type="template">{var}</annotation>). Alternativen werden in eckigen Klammern angegeben (z. B. <annotation type="template">[{contact_name}|Unbekannt]</annotation>).\n\nUnterstützte Variablen: <annotation type="supported_vars">PLACEHOLDER</annotation>. Siehe <annotation type="template_docs">Dokumentation</annotation> für eine vollständige Beschreibung der Syntax.</string>
+    <string name="filename_template_dialog_message">Benutzerdefinierte Vorlage für den Ausgabedateinamen eingeben. Variablen werden in geschweiften Klammern angegeben (z. B. <annotation type="template">{var}</annotation>). Fallbacks werden in eckigen Klammern angegeben (z. B. <annotation type="template">[{contact_name}|Unbekannt]</annotation>).\n\nUnterstützte Variablen: <annotation type="supported_vars">PLACEHOLDER</annotation>. Siehe <annotation type="template_docs">Dokumentation</annotation> für eine vollständige Beschreibung der Syntax.</string>
     <string name="filename_template_dialog_warning_subdirectories">Aufgrund der schlechten Leistung des Android Storage Access Frameworks kann die Verwendung von Unterverzeichnissen (<annotation type="template">/</annotation>-Zeichen) auf einigen Geräten zu erheblichen Verzögerungen beim Speichern der Aufnahme führen. Die Verzögerung tritt am Ende des Anrufs auf und sollte nicht zu einem Verlust des Audios des Anrufs führen.</string>
     <string name="filename_template_dialog_error_empty">Die Vorlage darf nicht leer sein.</string>
     <string name="filename_template_dialog_error_unknown_variable">Unbekannte Vorlagenvariable: <annotation type="template">PLACEHOLDER</annotation></string>
@@ -227,4 +232,8 @@
 
     <!-- Snackbar alerts -->
     <string name="documentsui_not_found">Der integrierte Dateimanager von Android (DocumentsUI) ist nicht verfügbar.</string>
+    <string name="contact_picker_not_found">Die Kontaktauswahl des Android-Systems ist nicht verfügbar.</string>
+
+    <!-- Separator between elements in the descriptions of the output directory and output format preferences on the main screen. Double quotes are needed to preserve leading or trailing spaces, but don't show up in the actual text. -->
+    <string name="summary_separator">", "</string>
 </resources>
